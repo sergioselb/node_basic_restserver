@@ -11,11 +11,11 @@ const router = Router();
 
 router.get("/", usuariosGet);
 
-// put actualiza
+// coloca nueva data
 router.post("/", usuariosPost);
 
-// coloca nueva data
-router.put("/:id", usuariosPut); // se le agrega como un argumento que tomara de la peticion
+// put actualiza
+router.put("/:id", usuariosPut); // se le agrega el id como un argumento que tomara de la peticion
 
 router.delete("/", usuariosDelete);
 
