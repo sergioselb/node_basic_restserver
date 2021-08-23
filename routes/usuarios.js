@@ -15,7 +15,7 @@ router.get("/", usuariosGet);
 router.post("/", usuariosPost);
 
 // put actualiza
-router.put("/:id", usuariosPut); // se le agrega el id como un argumento que tomara de la peticion
+router.put("/:id", usuariosPut); // se agrega el id como un argumento que tomara de la peticion
 
 router.delete("/", usuariosDelete);
 
